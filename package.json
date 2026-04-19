@@ -1,0 +1,20 @@
+{
+  "name": "qronjobs",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bullmq": "^5.74.1",
+    "cron-parser": "^5.5.0",
+    "effect": "^3.21.1",
+    "hono": "^4.12.14",
+    "ioredis": "^5.10.1",
+    "postgres": "^3.4.9"
+  }
+}
